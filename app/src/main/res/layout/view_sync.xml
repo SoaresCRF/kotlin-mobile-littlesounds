@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_fragment">
+
+        <!-- Animação de fundo -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieBackgroundSync"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:alpha="0.2"
+            android:scaleType="centerCrop"
+            android:translationZ="-1dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/confetti_animation" />
+
+        <!-- Conteúdo principal centralizado -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Título da tela de sincronização -->
+            <TextView
+                android:id="@+id/viewSyncTitle"
+                style="@style/BoldTitleText"
+                android:text="@string/view_sync_title" />
+
+            <!-- Animação de carregamento principal -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieLoadingSync"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loading_sync_animation" />
+
+            <!-- Animação decorativa adicional -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieDecorative"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-20dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/balloon_floating_animation" />
+
+            <!-- Mensagem enquanto o servidor está lento para responder -->
+            <TextView
+                android:id="@+id/errorServerSlowMessage"
+                style="@style/CenteredMessageText"
+                android:visibility="gone"
+                tools:text="Nossos ajudantes estão arrumando as imagens, sons e palavrinhas com muito carinho!"
+                tools:visibility="visible" />
+
+            <!-- Indicador de progresso animado -->
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/funProgressBar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:indeterminate="true"
+                app:trackCornerRadius="4dp"
+                app:trackThickness="8dp" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

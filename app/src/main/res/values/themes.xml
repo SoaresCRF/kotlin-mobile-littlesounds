@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LittleSounds" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.LittleSounds" parent="Base.Theme.LittleSounds" />
+</resources>

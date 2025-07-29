@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.main.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar">
+
+        <!-- Tabs para navegação entre páginas -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/viewPagerTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark"
+            app:tabIndicatorColor="@color/tab_indicator_color"
+            app:tabIndicatorFullWidth="true"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="@android:color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Container para páginas deslizantes -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- Tela customizada de sincronização -->
+    <com.dev.soarescrf.littlesounds.shared.SyncView
+        android:id="@+id/syncView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Botão flutuante para iniciar sincronização -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/accessibility_fab_sync"
+        android:src="@drawable/ic_sync"
+        app:backgroundTint="@color/primary_dark"
+        app:layout_anchor="@id/viewPager"
+        app:layout_anchorGravity="bottom|end"
+        app:tint="@android:color/white" />
+
+    <!-- Layout de estado vazio, mostrado quando não há conteúdo -->
+    <include
+        android:id="@+id/viewEmptyState"
+        layout="@layout/view_empty_state"
+        android:visibility="gone"
+        tools:visibility="visible" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

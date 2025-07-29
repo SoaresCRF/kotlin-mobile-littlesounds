@@ -1,0 +1,190 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Little Sounds</string>
+
+    <!-- Mensagens de loading exibidas durante a sincronização, divididas por categorias temáticas -->
+    <string-array name="loading_all_messages">
+        <!-- Animais -->
+        <item>Woof woof! Os animaizinhos estão se aquecendo!</item>
+        <item>Os bichinhos estão se preparando para o show!</item>
+        <item>Miau! Já já começa a diversão!</item>
+        <item>Segure firme, os bichinhos estão se arrumando!</item>
+        <item>Os animaizinhos estão escolhendo suas fantasias!</item>
+        <item>Rrrr… o leão está ensaiando o rugido para te impressionar!</item>
+        <item>Piu piu! Os passarinhos estão aquecendo as vozes!</item>
+        <item>Os bichinhos estão fazendo fila para a aventura!</item>
+
+        <!-- Cores -->
+        <item>As cores estão se pintando sozinhas!</item>
+        <item>Um arco-íris está chegando para te ver!</item>
+        <item>As tintas estão brincando de esconde-esconde!</item>
+        <item>Azul, vermelho, amarelo… todos prontos para brilhar!</item>
+        <item>As cores estão dançando no arco-íris!</item>
+        <item>Está quase! As cores estão se misturando com alegria!</item>
+
+        <!-- Comidas -->
+        <item>As comidinhas estão se preparando para o piquenique!</item>
+        <item>Hmmm… que cheirinho gostoso! Está quase pronto!</item>
+        <item>As frutas estão fazendo uma festa na fruteira!</item>
+        <item>O bolo está colocando a cobertura bem bonita!</item>
+        <item>As comidinhas estão se organizando no prato!</item>
+        <item>Pipoquinhas pulando de alegria, vem aí diversão!</item>
+
+        <!-- Números -->
+        <item>Os números estão se organizando na fila!</item>
+        <item>1, 2, 3… prontinhos para brincar!</item>
+        <item>Os números estão treinando para contar até o infinito!</item>
+        <item>5, 4, 3… a contagem regressiva começou!</item>
+        <item>Os números estão se divertindo com a matemática!</item>
+        <item>Prontos para somar diversão com você!</item>
+
+        <!-- Família -->
+        <item>A família está chegando para dar oi!</item>
+        <item>Todo mundo já já aparece por aqui!</item>
+        <item>Mamãe, papai e todo mundo estão chegando!</item>
+        <item>A família inteira está vindo com um abraço!</item>
+        <item>Prepare-se para sorrisos em família!</item>
+        <item>Os priminhos estão correndo pra te ver!</item>
+
+        <!-- Insetos -->
+        <item>Os insetinhos estão marchando para te ver!</item>
+        <item>Bzzz… estamos quase prontos!</item>
+        <item>As joaninhas estão lustrando as pintinhas!</item>
+        <item>Os insetinhos estão ensaiando uma dancinha especial!</item>
+        <item>Formiguinhas organizadas estão marchando em ritmo!</item>
+        <item>Zzzup! Uma abelhinha vem trazendo alegria!</item>
+
+        <!-- Alfabeto -->
+        <item>As letras estão se ajeitando na ordem certa!</item>
+        <item>A, B, C… prontas para ensinar você!</item>
+        <item>As letras estão pulando de alegria!</item>
+        <item>O alfabeto está fazendo uma roda de conversa!</item>
+        <item>De A até Z, todo mundo quer brincar com você!</item>
+        <item>As letras estão praticando para formar palavrinhas mágicas!</item>
+
+        <!-- Padrão -->
+        <item>Espere só um pouquinho… a diversão já vai começar!</item>
+        <item>Preparando os sons mais divertidos para você!</item>
+        <item>Pronto para uma chuva de diversão? Tá quase!</item>
+        <item>A mágica está sendo preparada com muito carinho!</item>
+        <item>Sorrisos e risadas estão a caminho!</item>
+        <item>O palco está quase pronto… e a festa também!</item>
+    </string-array>
+
+    <!-- Mensagens exibidas quando o usuário está sem conexão com a internet -->
+    <string-array name="error_messages_no_connection_user">
+        <item>Ops! Parece que a sua internet tirou um cochilo. Vamos acordar ela?</item>
+        <item>O fiozinho da sua rede se enroscou! Dá uma olhadinha pra desenrolar.</item>
+        <item>Seu wifi foi brincar de esconde-esconde. Consegue chamar ele de volta?</item>
+        <item>Parece que a sua internet foi dar uma voltinha. Vamos esperar ela voltar?</item>
+        <item>Seu sinal está tirando uma soneca. Que tal acordar ele rapidinho?</item>
+        <item>A conexão aí na sua casa deu uma pausa. Dá uma checada, por favor!</item>
+        <item>O app não encontrou sua internet. Será que ela está desligada ou longe?</item>
+        <item>Seu wifi foi dar um passeio e esqueceu o caminho de casa. Consegue ajudar?</item>
+        <item>O sinal aí ficou fraquinho. Tenta ligar e desligar o seu roteador?</item>
+        <item>Parece que sua internet está escondida. Vamos procurar juntinhos?</item>
+        <item>O app está esperando sua internet acordar pra começar a brincadeira!</item>
+        <item>Seu wifi está de férias. Será que consegue chamar ele pra trabalhar?</item>
+        <item>A conexão aí em casa sumiu! Que tal dar uma conferida nas luzinhas do modem?</item>
+        <item>Ops! Sua internet parece estar sem energia. Dá uma olhada pra ajudar!</item>
+        <item>Seu sinal está preguiçoso hoje. Vamos dar um empurrãozinho?</item>
+        <item>O app não achou a internet aí. Vamos dar uma olhadinha nas configurações?</item>
+        <item>O wifi aí está meio tímido. Consegue chamar ele pra brincar?</item>
+        <item>Sua conexão está fazendo pausa para descanso. Vamos tentar mais tarde?</item>
+        <item>O app está esperando seu sinal ficar forte de novo. Tente se conectar!</item>
+        <item>Seu wifi está se escondendo. Será que ele quer brincar com a gente?</item>
+    </string-array>
+
+    <!-- Mensagens exibidas quando o servidor está lento para responder -->
+    <string-array name="error_messages_server_slow">
+        <item>Nossos ajudantes estão arrumando as imagens, sons e palavrinhas com muito carinho!</item>
+        <item>A turminha mágica está juntando o som, a figura e a palavrinha direitinho!</item>
+        <item>O sistema foi buscar os sons, as imagens e os nomes das coisas. Já já volta!</item>
+        <item>As figurinhas estão se ajeitando, os sons se aquecendo e as palavras se penteando!</item>
+        <item>O baú dos conteúdos está abrindo devagarzinho… espere só mais um pouquinho!</item>
+        <item>A fábrica de sons, imagens e palavras está quase pronta pra brincar com você!</item>
+        <item>O time dos cliques está preparando tudo pra você ver, ouvir e ler!</item>
+        <item>Estamos empacotando imagem, som e palavra como um presentinho especial!</item>
+        <item>O computadorzinho está misturando figurinhas com sons e palavrinhas!</item>
+        <item>A central das imagens e sons está acordando devagar… já já vem tudo junto!</item>
+        <item>As imagens estão sorrindo pra foto, os sons estão afinando e as palavras treinando!</item>
+        <item>O parquinho das figurinhas e palavrinhas está quase aberto!</item>
+        <item>O sistema está encaixando as palavras certinhas nas imagens com som!</item>
+        <item>As palavrinhas estão escolhendo as figurinhas mais lindas pra aparecerem!</item>
+        <item>O grupo dos sons está chamando as imagens pra brincar com as palavras!</item>
+        <item>A mágica está acontecendo: imagem, som e palavrinha se encontrando!</item>
+        <item>Estamos combinando cada som com sua imagem e palavrinha especial!</item>
+        <item>As figurinhas foram buscar seus sons e palavrinhas favoritas!</item>
+        <item>Os bichinhos do app estão se arrumando pra dizer seus nomes bem bonitinhos!</item>
+        <item>O app está preparando uma surpresa com imagem, som e palavra só pra você!</item>
+    </string-array>
+
+    <!-- Mensagens exibidas quando o servidor retorna erro de timeout -->
+    <string-array name="error_messages_server_timeout">
+        <item>Xiii… nossos ajudantes ficaram cansados e pararam por enquanto. Vamos tentar depois!</item>
+        <item>A turminha do som foi brincar longe e ainda não voltou. Até logo!</item>
+        <item>Ops! O sistema cansou de esperar e fechou a porta. Voltamos já já!</item>
+        <item>As figurinhas, sons e palavras estão tirando uma pausa. Vamos descansar também!</item>
+        <item>O show dos sons e imagens acabou por hoje, mas logo volta a diversão!</item>
+        <item>Nossos amiguinhos do app foram tirar uma soneca. Até já!</item>
+        <item>A mágica do som e imagem sumiu por enquanto. Voltamos rapidinho!</item>
+        <item>O parque das palavras fechou a portinha. Vamos voltar quando abrir de novo!</item>
+        <item>Os sons e imagens ficaram muito cansadinhos e pararam. Vamos tentar mais tarde!</item>
+        <item>O time das letrinhas tirou uma folguinha. Voltamos em breve para brincar!</item>
+        <item>As palavrinhas se esconderam e não querem brincar agora. Até logo!</item>
+        <item>O computadorzinho desistiu de esperar. Vamos fechar e tentar mais tarde!</item>
+        <item>O app está tirando um cochilo porque o servidor cansou de esperar!</item>
+        <item>Os sons e imagens foram passear e ainda não voltaram. Volte logo!</item>
+        <item>A turminha das palavras se despediu por hoje. Até a próxima brincadeira!</item>
+        <item>O servidor ficou de férias e levou os sons junto. Vamos tentar depois!</item>
+        <item>Os sons e figuras foram brincar no esconderijo e não voltaram ainda!</item>
+        <item>O sistema se perdeu no caminho das palavras. Vamos fechar e tentar depois!</item>
+        <item>As letrinhas estão dormindo e não querem acordar agora. Até breve!</item>
+        <item>Nossos amiguinhos do app tiraram uma pausa. Voltamos já já pra brincar!</item>
+    </string-array>
+
+    <!-- Mensagens exibidas em caso de erros inesperados no aplicativo -->
+    <string-array name="error_messages_unexpected_error">
+        <item>Ué… algo engraçado aconteceu! Vamos dar uma pausa.</item>
+        <item>O app tropeçou sem querer. Que tal tentar de novo depois?</item>
+        <item>Oops! Um duende aprontou por aqui. Vamos fechar e consertar.</item>
+        <item>Uma surpresa apareceu e bagunçou tudo! Vamos reiniciar a brincadeira.</item>
+        <item>Algo deu um nó nos fios mágicos. Hora de um descanso rapidinho!</item>
+        <item>O app deu um espirro mágico! Vamos deixar ele descansar.</item>
+        <item>Um erro travesso apareceu e pulou no botão errado!</item>
+        <item>Alguém apertou o botão de confusão! Melhor fechar e tentar de novo.</item>
+        <item>O sistema fez cócegas no código e tudo se embaralhou!</item>
+        <item>O app está de cabeça para baixo… vamos endireitar depois!</item>
+        <item>O gnominho da tecnologia tropeçou nos cabos! Pausa pra conserto!</item>
+        <item>As engrenagens travaram de tanto rir! Vamos tentar depois.</item>
+        <item>Um erro pirata invadiu! Estamos afundando o navio por segurança.</item>
+        <item>A aventura travou no meio do caminho… vamos reiniciar!</item>
+        <item>O app se confundiu no mapa! Vamos encerrar e traçar outro caminho.</item>
+        <item>Uma bagunça invisível apareceu! Hora de fechar com cuidado.</item>
+        <item>Ops! A brincadeira bugou… vamos pausar e recomeçar depois!</item>
+        <item>Um erro fez cócegas no app! Melhor deixar ele se recompor.</item>
+        <item>O botão mágico foi apertado sem querer. Encerrando por enquanto!</item>
+    </string-array>
+
+    <!-- Texto para acessibilidade do botão flutuante (FAB) -->
+    <string name="accessibility_fab_sync">Sincronizar dados</string>
+
+    <!-- Título do diálogo -->
+    <string name="dialog_sync_title">Sincronizar dados</string>
+
+    <!-- Mensagem do diálogo -->
+    <string name="dialog_sync_message">Vamos usar a internet rapidinho para deixar tudo em dia. É bem rápido! Ah, e é legal fazer isso de vez em quando para manter tudo atualizado. Vamos começar?</string>
+
+    <!-- Texto para acessibilidade do ícone de confirmação no diálogo -->
+    <string name="accessibility_dialog_sync_ic_confirmation">Confirmar sincronização dos dados</string>
+
+    <!-- Título exibido quando o banco de dados local está vazio -->
+    <string name="empty_state_title">Parece que tá vazio por aqui…</string>
+
+    <!-- Mensagem exibida quando o banco de dados local está vazio -->
+    <string name="empty_state_message">Toque em 🔄 para buscar os dados!</string>
+
+    <!-- Título exibido durante o processo de sincronização -->
+    <string name="view_sync_title">Sincronizando</string>
+
+</resources>

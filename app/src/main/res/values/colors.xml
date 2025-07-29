@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_indicator_color">#FFFFFFFF</color>
+    <color name="primary_dark">#7B4F3F</color>
+    <color name="background_fragment">#FFF8ED</color>
+    <color name="text_primary">#5F5F5F</color>
+    <color name="card_background">#EDE9E3</color>
+
+    <!-- Cores neutras -->
+    <color name="dark_gray">#616161</color>
+    <color name="light_gray">#BDBDBD</color>
+</resources>
